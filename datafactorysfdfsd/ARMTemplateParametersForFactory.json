@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactorysfdfsd"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"integrationRuntimessis_properties_typeProperties_ssisProperties_catalogInfo_catalogServerEndpoint": {
+			"value": "databaseserver1234.database.windows.net"
+		},
+		"integrationRuntimessis_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminUserName": {
+			"value": "ADITYA"
+		},
+		"integrationRuntimessis_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminPassword": {
+			"value": ""
+		}
+	}
+}
